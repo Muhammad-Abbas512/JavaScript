@@ -4,7 +4,7 @@ Welcome to my **JavaScript Projects Hub**!
 This repository contains **20 small to medium JavaScript projects** demonstrating my skills in **HTML, CSS, and JavaScript**, with a clean and responsive UI.  
 
 You can View From **Github**:
-Also can check from web page. [**JavaScript Website**](https://Muhammad-Abbas512.github.io/JavaScript---Projects) 
+Also can check from web page. [**JavaScript Website**](https://Muhammad-Abbas512.github.io/JavaScript) 
 
 Each project is organized in its own folder and can be opened individually.
 
@@ -12,7 +12,7 @@ Each project is organized in its own folder and can be opened individually.
 
 ## 🔹 Live Demo
 View all projects live on GitHub Pages:  
-[Live Demo](https://Muhammad-Abbas512.github.io/JavaScript---Projects)  
+[Live Demo](https://Muhammad-Abbas512.github.io/JavaScript)  
 
 ---
 
