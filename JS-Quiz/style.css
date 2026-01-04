@@ -1,0 +1,212 @@
+:root {
+  --bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --card: rgba(255, 255, 255, 0.1);
+  --text: #e5e7eb;
+  --primary: #6366f1;
+  --border: rgba(255, 255, 255, 0.2);
+}
+
+body.light {
+  --bg: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  --card: rgba(255, 255, 255, 0.8);
+  --text: #020617;
+  --border: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.dashboard h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dashboard-card {
+  background: var(--card);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.dashboard-card h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.dashboard-card label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.dashboard-card select,
+.dashboard-card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text);
+  font-size: 1rem;
+}
+
+.dashboard-card button {
+  width: 100%;
+  padding: 12px;
+  background: var(--primary);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.dashboard-card button:hover {
+  background: #4f46e5;
+}
+
+.quiz {
+  width: 100%;
+  max-width: 500px;
+  background: var(--card);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.top-bar {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+#themeToggle {
+  width: 50px;
+  height: 24px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+
+#themeToggle::before {
+  content: '';
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--primary);
+  position: absolute;
+  left: 2px;
+  transition: transform 0.3s;
+}
+
+body.light #themeToggle::before {
+  transform: translateX(26px);
+}
+
+#themeToggle::after {
+  content: '🌙';
+  position: absolute;
+  left: 6px;
+  font-size: 12px;
+  transition: opacity 0.3s;
+}
+
+body.light #themeToggle::after {
+  content: '☀️';
+  left: 30px;
+  opacity: 1;
+}
+
+.progress {
+  height: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#progressBar {
+  height: 100%;
+  width: 0%;
+  background: var(--primary);
+  transition: width 0.3s;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+#options button {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text);
+  cursor: pointer;
+  transition: all 0.3s;
+  backdrop-filter: blur(5px);
+}
+
+#options button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.correct { background: rgba(34, 197, 94, 0.8) !important; }
+.wrong { background: rgba(239, 68, 68, 0.8) !important; }
+
+#nextBtn {
+  display: none;
+  width: 100%;
+  padding: 15px;
+  background: var(--primary);
+  border: none;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s;
+}
+
+#nextBtn:hover {
+  background: #4f46e5;
+}
