@@ -72,6 +72,7 @@ View all projects live on GitHub Pages:
 ![Dashboard Screenshot](images/JavaScript%20Projects.png)
 > (Calculator Preview)
 ![Calculator Screenshot](images/Calculator.png)
+<br>
 >!(To-Do List Preview)
 ![Todo App Screenshot](images/To%20Do.png)
 <!-- Add more screenshots as you go -->
