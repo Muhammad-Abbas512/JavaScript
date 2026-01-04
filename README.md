@@ -73,7 +73,7 @@ View all projects live on GitHub Pages:
 > (Calculator Preview)
 ![Calculator Screenshot](images/Calculator.png)
 > (To Do List Preview)
-![Todo App Screenshot](images/To-Do.png)
+![Todo App Screenshot](images/To%20Do.png)
 <!-- Add more screenshots as you go -->
 
 ---
