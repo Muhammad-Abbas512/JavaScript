@@ -75,9 +75,19 @@ body {
   border: 1px solid var(--border);
   border-radius: 10px;
   cursor: pointer;
-  background: rgba(132, 91, 91, 0.1);
+  background: rgba(255, 255, 255, 0.1);
   color: var(--text);
   font-size: 1rem;
+}
+
+select option {
+  background: rgba(0, 0, 0, 0.8);
+  color: #e5e7eb;
+}
+
+body.light select option {
+  background: rgba(255, 255, 255, 0.8);
+  color: #020617;
 }
 .dashboard-card select:focus,
 .dashboard-card input:focus {
