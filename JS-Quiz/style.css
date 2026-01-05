@@ -61,6 +61,7 @@ body {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
+
 }
 
 .dashboard-card select,
@@ -70,10 +71,18 @@ body {
   margin-bottom: 15px;
   border: 1px solid var(--border);
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  background: rgba(132, 91, 91, 0.1);
   color: var(--text);
   font-size: 1rem;
 }
+.dashboard-card select:focus,
+.dashboard-card input:focus {
+  border-color: var(--primary);
+  cursor: pointer;
+  box-shadow: 0 0 5px var(--primary);
+}
+
 
 .dashboard-card button {
   width: 100%;
