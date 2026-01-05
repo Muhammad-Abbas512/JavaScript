@@ -4,7 +4,7 @@ Welcome to my **JavaScript Projects Hub**!
 This repository contains **20 small to medium JavaScript projects** demonstrating my skills in **HTML, CSS, and JavaScript**, with a clean and responsive UI.  
 
 You can View From **Github**:
-Also can check from web page. [**JavaScript Website**](https://Muhammad-Abbas512.github.io/JavaScript) 
+Also can check from web page. [**JavaScript Website**](https://javascript-proje.netlify.app/) 
 
 Each project is organized in its own folder and can be opened individually.
 
@@ -66,18 +66,6 @@ View all projects live on GitHub Pages:
 
 ---
 
-## 🔹 Screenshots
-> (Main Dashboard Preview)
-
-![Dashboard Screenshot](images/JavaScript%20Projects.png)
-> (Calculator Preview)
-![Calculator Screenshot](images/Calculator.png)
-
-> (To Do List Preview)
-![Todo App Screenshot](images/To%20Do.png)
-<!-- Add more screenshots as you go -->
-
----
 
 ## 🔹 Future Improvements
 - Add more advanced projects like **chat app, music player, or small games**  
