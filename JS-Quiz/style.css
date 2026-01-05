@@ -1,6 +1,6 @@
 :root {
   --bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  --card: rgba(255, 255, 255, 0.1);
+  --card: rgba(219, 183, 183, 0.258);
   --text: #e5e7eb;
   --primary: #6366f1;
   --border: rgba(255, 255, 255, 0.2);
@@ -63,6 +63,9 @@ body {
   font-weight: bold;
 
 }
+
+
+
 
 .dashboard-card select,
 .dashboard-card input {
